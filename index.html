@@ -1,24 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Startseite</title>
-    <style>
-        #time {
-            font-size: 2em;
-            margin-top: 20px;
-        }
-        #error {
-            color: red;
-            margin-top: 20px;
-        }
-    </style>
+    <title>Begrüßung basierend auf der Tageszeit</title>
+    <script src="scripts/timeGreeting.js" defer></script>
 </head>
 <body>
-    <h1>Willkommen auf der Startseite</h1>
-    <div id="time">Lade aktuelle Uhrzeit...</div>
-    <div id="error"></div>
-    <script src="time.js"></script>
+    <h1 id="greeting">Willkommen</h1>
 </body>
 </html>
