@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hallo Welt</title>
+    <title>Startseite</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        #time {
+            font-size: 2em;
+            margin-top: 20px;
+        }
+        #error {
+            color: red;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <p>Hallo Welt 123</p>
+    <h1>Willkommen auf der Startseite</h1>
+    <div id="time">Lade aktuelle Uhrzeit...</div>
+    <div id="error"></div>
+    <script src="time.js"></script>
 </body>
 </html>
